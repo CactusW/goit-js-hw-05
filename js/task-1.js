@@ -1,6 +1,7 @@
-const getUserNames = users => users.map(user => user.name);
-
-
+const getUserNames = (users) => {
+  let userNames = users.map(user => user.name);
+  return userNames;
+}
 
 console.log(
   getUserNames([
@@ -41,3 +42,4 @@ console.log(
   },
 ])
 ); // ["Moore Hensley", "Sharlene Bush", "Ross Vazquez", "Elma Head", "Carey Barr", "Blackburn Dotson", "Sheree Anthony"]
+
